@@ -647,8 +647,7 @@ a.slidebtn i{margin-left:10px;}
     margin-top: -24px;
     z-index: 99;
     position: relative;
-    margin-right: 20px;
-	visibility:hidden}
+    margin-right: 20px;}
 .service-price span{
     display: inline-block;
     font-weight: 700;
@@ -2401,3 +2400,120 @@ section.our_team_wrap .team_member{margin-bottom: 20px; margin-left: auto; margi
     }
 }
 
+
+
+.social_icon {
+  position:fixed;
+  right:calc(100% - 30px);
+  top:40%;
+  z-index:999;
+  transform:translateY(-50%);
+  -webkit-transform:translateY(-50%);
+  -o-transform:translateY(-50%);
+  -moz-transform:translateY(-50%);
+  display:inline-block
+}
+.social_icon ul {
+  margin:0;
+  padding:0
+}
+.social_icon ul li {
+    list-style: none;
+    margin-top: 20px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 9px; */
+    background: #fff;transition:all linear .3s;
+  white-space:nowrap;
+  -webkit-box-shadow:0 0 10px 0 rgba(105, 90, 166, .5);
+  -moz-box-shadow:0 0 10px 0 rgba(105, 90, 166, .5);
+  box-shadow:0 0 10px 0 rgba(105, 90, 166, .5);
+  border-top:.1px solid #c4c4c4;
+  border-bottom:.1px solid #c4c4c4
+}
+.social_icon ul li a {
+  color:#8731E8;
+  font-size:16px;
+  
+  font-weight:400;
+  line-height:51px;
+  padding-left:10px;
+  margin-left:13px;
+  text-decoration:none
+}
+section#timeline h1 {
+    color: #fff;
+}
+.social_icon ul li a span {
+  width:100px;
+  display:inline-block;
+  position:relative;
+  top:-5px;
+  text-align:right;
+  right:-25px
+}
+.social_icon ul li a i {
+  color:#695aa6;
+  font-size:30px;
+  text-align:center;
+  background:#fff;
+  line-height:40px;
+  padding:20px 30px;
+  border-top-right-radius:50%;
+  border-bottom-right-radius:50%;
+  -webkit-box-shadow:0 0 10px 0 rgba(105, 90, 166, .5);
+  -moz-box-shadow:0 0 10px 0 rgba(105, 90, 166, .5);
+  box-shadow:0 0 10px 0 rgba(105, 90, 166, .5);
+  text-decoration:none;
+  margin-left:20%
+}
+.social_icon ul li.tweet a::after, .social_icon ul li.tweet a::before {
+font-family:FontAwesome;
+position:absolute;
+font-size:25px;
+padding-top:4px
+}
+.tweet i {
+  font-size:25px;
+  color:#695aa6;
+  background:0 0;
+  padding-left:8%
+}
+.social_icon ul li.tweet a::before {
+content:"\f17d";
+padding-left:39%
+}
+.social_icon ul li.tweet a::after {
+content:"\f099";
+padding-left:3%
+}
+.social_icon ul li:hover {
+  -o-transform:translateY(160px, 0);
+  -moz-transform:translateY(160px, 0);
+  -webkit-transform:translate(160px, 0);
+  transform:translate(160px, 0)
+}
+.social_icon ul li a:hover i {
+  background:#8731E8;
+  color:#fff
+}
+.social_icon ul li.whatsapp a i, .social_icon ul li.whatsapp:hover a, .social_icon ul li.whatsapp:hover a i {
+  color:#25d366
+}
+.social_icon ul li.whatsapp a:hover i {
+  background:#25d366;
+  color:#fff
+}
+.social_icon ul li.downloadapp a i, .social_icon ul li.downloadapp:hover a {
+  color:#d67105
+}
+.social_icon ul li.downloadapp a:hover i {
+  background:#d67105;
+  color:#fff
+}
+.social_icon ul li.itservicelink a i, .social_icon ul li.itservicelink:hover a {
+  color:#1054af
+}
+.social_icon ul li.itservicelink a:hover i {
+  background:#1054af;
+  color:#fff
+}
